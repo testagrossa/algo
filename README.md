@@ -20,3 +20,12 @@ go to ./bin directory and run executable file
 ```sh
 ./bin/<executable-file>
 ```
+
+# how to build any excercise
+from exercise file folder, execute:
+```sh
+g++ -std=c++11 -fdiagnostics-color=always -g ./<file>.cpp -o ./bin/<file>
+```
+where <file> is the file name of the exercise to build
+and the name of the executable being created under ./bin/ folder
+
