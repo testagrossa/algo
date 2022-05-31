@@ -22,8 +22,9 @@ function processFile() {
 }
 
 # traverse and process all files in current directory
-for FILE in *
+for FILE in ../exercises/*
 do
-  processFile $FILE
+    echo "Processing ${FILE}"
+    processFile $FILE
 done
 

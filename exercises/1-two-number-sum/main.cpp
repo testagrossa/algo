@@ -1,0 +1,22 @@
+#include <iostream>
+#include "../../utils/utils.cpp"
+#include "./A-two-number-sum.cpp"
+#include "./B-two-number-sum.cpp"
+#include "./C-two-number-sum.cpp"
+
+using namespace std;
+
+int main()
+{
+    vector<int> inputArray = {3, 5, -4, 8, 11, 1, -1, 6};
+    int targetSum = 10;
+
+    vector<int> outputA = SolutionA::twoNumberSum(inputArray, targetSum);
+    std::cout << "outputA: " + vectorToString(outputA) << std::endl;
+
+    vector<int> outputB = SolutionB::twoNumberSum(inputArray, targetSum);
+    std::cout << "outputB: " + vectorToString(outputB) << std::endl;
+
+    vector<int> outputC = SolutionC::twoNumberSum(inputArray, targetSum);
+    std::cout << "outputC: " + vectorToString(outputC) << std::endl;
+}
