@@ -37,3 +37,5 @@ ie:
 g++ -std=c++11 -fdiagnostics-color=always -g ./1-two-number-sum/A-two-number-sum.cpp -o ./1-two-number-sum/bin/A-two-number-sum
 ```
 
+# how to clean builds in /bin directories
+from root folder run clean.sh script
