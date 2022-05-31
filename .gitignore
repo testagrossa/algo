@@ -1,0 +1,4 @@
+# Builds
+bin/*
+# exception to the rule
+!bin/.gitkeep 
