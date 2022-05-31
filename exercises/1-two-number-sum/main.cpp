@@ -1,8 +1,8 @@
 #include <iostream>
 #include "../../utils/utils.cpp"
-#include "./A-two-number-sum.cpp"
-#include "./B-two-number-sum.cpp"
-#include "./C-two-number-sum.cpp"
+#include "./solutions/A-two-number-sum.cpp"
+#include "./solutions/B-two-number-sum.cpp"
+#include "./solutions/C-two-number-sum.cpp"
 
 using namespace std;
 
