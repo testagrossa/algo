@@ -7,6 +7,8 @@ function processFile() {
     if [[ -f "${EXERCISE}/bin/main" ]]
     then
         "${EXERCISE}/bin/main"
+    else 
+      echo "File ${EXERCISE} is not a valid file"
     fi
 }
 

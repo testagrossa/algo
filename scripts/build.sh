@@ -7,6 +7,8 @@ function processFile() {
     if [[ -f "${FILE}/main.cpp" ]]
     then
       g++ -std=c++11 -fdiagnostics-color=always -g "./${FILE}/main.cpp" -o "./${FILE}/bin/main"
+    else 
+      echo "File ${FILE} is not a valid file"
     fi
 }
 
