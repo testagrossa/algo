@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -26,4 +27,9 @@ vector<int> twoNumberSum(vector<int> array, int targetSum)
         }
     }
     return {};
+}
+
+int main()
+{
+    std::cout << "Hello World" << std::endl;
 }

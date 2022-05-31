@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 #include <unordered_set>
 
@@ -20,4 +21,9 @@ vector<int> twoNumberSum(vector<int> array, int targetSum)
         }
     }
     return {};
+}
+
+int main()
+{
+    std::cout << "Hello World" << std::endl;
 }
