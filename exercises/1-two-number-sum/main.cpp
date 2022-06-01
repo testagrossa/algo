@@ -3,6 +3,9 @@
 #include "./solutions/A-two-number-sum.cpp"
 #include "./solutions/B-two-number-sum.cpp"
 #include "./solutions/C-two-number-sum.cpp"
+#include <cassert> 
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -19,4 +22,9 @@ int main()
 
     vector<int> outputC = SolutionC::twoNumberSum(inputArray, targetSum);
     std::cout << "outputC: " + vectorToString(outputC) << std::endl;
+
+    // Assertions
+    assert(outputA == outputB);
+    std::reverse(outputC.begin(), outputC.end());
+    assert(outputC == outputB);
 }
