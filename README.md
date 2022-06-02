@@ -2,7 +2,7 @@
 This repo will contain the solutions for https://www.algoexpert.io/
 Each solution will reside in its own file with propper summary + tests
 
-# Prerequicites. 
+# Prerequicites.
 1. install g++ and clang for ur OS
 check installation versions:
 ```sh
@@ -47,6 +47,18 @@ from root/scripts folder you can
     script to clean /bin directories in exercises
 
 # formatting
+## using vscode
 1. on vs-code go to Code > Preferences > Settings
 2. look for `format on save`
 3. check Editor: **Format On Save** option
+## using clang-format
+1. install tools:
+- pre-commit
+    MacOSX: `brew install pre-commit`
+
+- clang-format
+    MacOSX: `brew install clang-format`
+    Linux: `sudo apt install clang-format`
+
+2. install pre-commit hooks in the repo:
+on root of project run: `pre-commit install`
