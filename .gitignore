@@ -1,4 +1,4 @@
 # Builds
-bin/*
+**/bin/*
 # exception to the rule
-!bin/.gitkeep 
+!**/bin/.gitkeep 
