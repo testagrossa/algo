@@ -45,3 +45,8 @@ from root/scripts folder you can
     script to run an excercise
 - clean.sh
     script to clean /bin directories in exercises
+
+# formatting
+1. on vs-code go to Code > Preferences > Settings
+2. look for `format on save`
+3. check Editor: **Format On Save** option

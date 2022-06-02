@@ -3,7 +3,7 @@
 #include "./solutions/A-two-number-sum.cpp"
 #include "./solutions/B-two-number-sum.cpp"
 #include "./solutions/C-two-number-sum.cpp"
-#include <cassert> 
+#include <cassert>
 #include <vector>
 #include <algorithm>
 
