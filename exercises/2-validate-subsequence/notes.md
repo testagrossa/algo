@@ -1,5 +1,6 @@
-A. brute force, tries all possible combinations of inputs to find the expected result.
-usually its the worst performant but its the easiest way to find the correct solution
-
-B. greedy, sacrifices space to obtain the most performant solution in time
-by storing historical values that you will look up later in the process to satisfy an equation.
+A&B. greedy, counts how many elements exists in both the arr and in the sequence, in the same order or appearence.
+it loops over the the main array until either:
+- it finished traversing it
+- it found all elements in sequence
+on each iteration it will check if the iterated element is equal to the target candidate in the sequence.
+if so, it will mark the target as found by increasing the counter index.
