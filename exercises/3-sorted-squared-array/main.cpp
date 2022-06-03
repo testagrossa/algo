@@ -22,4 +22,5 @@ int main()
 
     // Assertions
     assert(outputA == outputB);
+    assert(outputA == expected);
 }
