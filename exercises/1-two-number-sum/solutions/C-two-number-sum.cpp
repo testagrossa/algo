@@ -17,10 +17,12 @@ namespace SolutionC
             if (currentSum == targetSum)
             {
                 return {array[left], array[right]};
-            } else if (currentSum < targetSum)
+            }
+            else if (currentSum < targetSum)
             {
                 left++;
-            } else
+            }
+            else
             {
                 right--;
             }

@@ -15,7 +15,8 @@ namespace SolutionB
             if (nums.find(potentialMatch) != nums.end())
             {
                 return vector<int>{potentialMatch, num};
-            } else
+            }
+            else
             {
                 nums.insert(num);
             }

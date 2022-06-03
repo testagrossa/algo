@@ -19,6 +19,7 @@ BraceWrapping:
   AfterNamespace: true
   AfterExternBlock: true
   AfterFunction: true
+  BeforeElse: true
   AfterControlStatement: Always
   SplitEmptyFunction: false
 SortIncludes: CaseSensitive
