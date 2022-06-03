@@ -47,10 +47,12 @@ from root/scripts folder you can
     script to clean /bin directories in exercises
 
 # formatting
+
 ## using vscode
 1. on vs-code go to Code > Preferences > Settings
 2. look for `format on save`
 3. check Editor: **Format On Save** option
+
 ## using clang-format
 1. install tools:
 - pre-commit
@@ -61,4 +63,7 @@ from root/scripts folder you can
     Linux: `sudo apt install clang-format`
 
 2. install pre-commit hooks in the repo:
-on root of project run: `pre-commit install`
+on githooks folder run: `pre-commit install`
+
+3. execute format script:
+on script folder run: `./format.sh`
