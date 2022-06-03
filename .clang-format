@@ -4,3 +4,20 @@ BasedOnStyle: Google
 Language:        Cpp
 NamespaceIndentation: All
 FixNamespaceComments: false
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Never
+BinPackArguments: true
+BinPackParameters: true
+BitFieldColonSpacing: After
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: true
+  AfterStruct: true
+  AfterNamespace: true
+  AfterExternBlock: true
+  SplitEmptyFunction: false
+SortIncludes: CaseSensitive
+SeparateDefinitionBlocks: Always
+KeepEmptyLinesAtTheStartOfBlocks: true
+IndentWidth: 4
