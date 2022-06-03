@@ -1,5 +1,5 @@
-#include <vector>
 #include <unordered_set>
+#include <vector>
 
 using namespace std;
 
@@ -14,7 +14,7 @@ namespace SolutionB
             int potentialMatch = targetSum - num;
             if (nums.find(potentialMatch) != nums.end())
             {
-                return vector<int>{potentialMatch, num};
+                return vector<int> { potentialMatch, num };
             }
             else
             {

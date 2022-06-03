@@ -1,0 +1,30 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: Google
+Language:        Cpp
+NamespaceIndentation: All
+FixNamespaceComments: false
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BinPackArguments: true
+BinPackParameters: true
+BitFieldColonSpacing: After
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: true
+  AfterStruct: true
+  AfterNamespace: true
+  AfterExternBlock: true
+  AfterFunction: true
+  BeforeElse: true
+  AfterControlStatement: Always
+  SplitEmptyFunction: false
+SortIncludes: CaseSensitive
+SeparateDefinitionBlocks: Always
+KeepEmptyLinesAtTheStartOfBlocks: true
+IndentWidth: 4
+SpaceBeforeCpp11BracedList: true
+Cpp11BracedListStyle: false

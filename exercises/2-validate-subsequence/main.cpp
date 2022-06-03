@@ -1,9 +1,10 @@
+#include <algorithm>
+#include <cassert>
 #include <iostream>
+#include <vector>
+
 #include "./solutions/A-validate-subsequence.cpp"
 #include "./solutions/B-validate-subsequence.cpp"
-#include <cassert> 
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -17,7 +18,6 @@ int main()
 
     bool outputB = SolutionB::isValidSubsequence(inputArray, targetSequence);
     std::cout << "outputB: " << std::boolalpha << outputB << std::endl;
-
 
     // Assertions
     assert(outputA == outputB);
