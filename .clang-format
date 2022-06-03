@@ -4,7 +4,7 @@ BasedOnStyle: Google
 Language:        Cpp
 NamespaceIndentation: All
 FixNamespaceComments: false
-AlignAfterOpenBracket: BlockIndent
+# AlignAfterOpenBracket: BlockIndent
 AlignTrailingComments: true
 AllowShortBlocksOnASingleLine: Never
 AllowShortIfStatementsOnASingleLine: Never
@@ -23,7 +23,7 @@ BraceWrapping:
   AfterControlStatement: Always
   SplitEmptyFunction: false
 SortIncludes: CaseSensitive
-SeparateDefinitionBlocks: Always
+# SeparateDefinitionBlocks: Always
 KeepEmptyLinesAtTheStartOfBlocks: true
 IndentWidth: 4
 SpaceBeforeCpp11BracedList: true
