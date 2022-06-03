@@ -41,10 +41,14 @@ g++ -std=c++11 -fdiagnostics-color=always -g ./exercises/1-two-number-sum/main.c
 from root/scripts folder you can
 - build.sh $excercise
     script to build an excercise
+    this will create a /bin directory inside the exercise folder
 - run.sh $excercise
     script to run an excercise
+    this will execute the ./bin/main.cpp file generated from build process
 - clean.sh
-    script to clean /bin directories in exercises
+    script to clean all exercises
+    this will remove all /bin directories in exercises,
+    only keeping .gitkeep files
 
 # formatting
 
@@ -52,6 +56,7 @@ from root/scripts folder you can
 1. on vs-code go to Code > Preferences > Settings
 2. look for `format on save`
 3. check Editor: **Format On Save** option
+4. check Editor: **Format On Save Mode** option is set to `file`
 
 ## using clang-format
 1. install tools:
@@ -63,7 +68,9 @@ from root/scripts folder you can
     Linux: `sudo apt install clang-format`
 
 2. install pre-commit hooks in the repo:
-on githooks folder run: `pre-commit install`
+on ./githooks folder run: `pre-commit install`
+this will prevent to commit unformatted code
 
 3. execute format script:
-on script folder run: `./format.sh`
+on ./script folder run: `./format.sh`
+this will format all ur *.cpp files
