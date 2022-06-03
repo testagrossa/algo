@@ -8,7 +8,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     vector<int> inputArray = {5, 1, 22, 25, 6, -1, 8, 10};
     vector<int> targetSequence = {1, 6, -1, 10};
 

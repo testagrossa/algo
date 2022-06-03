@@ -7,6 +7,8 @@ FixNamespaceComments: false
 AlignAfterOpenBracket: BlockIndent
 AlignTrailingComments: true
 AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
 BinPackArguments: true
 BinPackParameters: true
 BitFieldColonSpacing: After
@@ -16,6 +18,8 @@ BraceWrapping:
   AfterStruct: true
   AfterNamespace: true
   AfterExternBlock: true
+  AfterFunction: true
+  AfterControlStatement: Always
   SplitEmptyFunction: false
 SortIncludes: CaseSensitive
 SeparateDefinitionBlocks: Always
