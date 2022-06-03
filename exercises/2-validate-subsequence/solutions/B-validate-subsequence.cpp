@@ -15,7 +15,6 @@ namespace SolutionB
                 break;
             }
             if (value == sequence[seqIndex])
-
             {
                 seqIndex++;
             }
