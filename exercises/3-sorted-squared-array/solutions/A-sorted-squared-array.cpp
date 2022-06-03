@@ -12,7 +12,7 @@ namespace SolutionA
         for (int idx = 0; idx < array.size(); idx++)
         {
             int value = array[idx];
-            sortedSquares[idx] == value* value;
+            sortedSquares[idx] = value * value;
         }
         sort(sortedSquares.begin(), sortedSquares.end());
         return sortedSquares;

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// O(n) Time | O(n) Space - where n is the lenght of the imput array
+// O(n) time | O(n) space - where n is the lenght of the imput array
 namespace SolutionB
 {
     vector<int> sortedSquaredArray(vector<int> array)
@@ -24,7 +24,7 @@ namespace SolutionB
             else
             {
                 sortedSquares[idx] = largerValue * largerValue;
-                largerValueIdx++;
+                largerValueIdx--;
             }
         }
         return sortedSquares;
