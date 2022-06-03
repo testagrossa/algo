@@ -1,0 +1,201 @@
+[33mcommit cd935926d04e9aa951d14480cf790ba564e517fa[m[33m ([m[1;36mHEAD -> [m[1;32madd-formatter[m[33m, [m[1;31morigin/add-formatter[m[33m, [m[1;32m2-sorted-squared-array[m[33m)[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 03:41:53 2022 +0200
+
+    UPDATE fmt ~ v3
+
+[33mcommit 80ca2ac7d52a9a74cdd74cf4cd4d286315b645cb[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 03:36:38 2022 +0200
+
+    UPDATE fmt ~ v2
+
+[33mcommit 6dd8e66a497a80b75ec534b637d1962fb6ac920a[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 03:34:12 2022 +0200
+
+    UPDATE fmt
+
+[33mcommit c9fc613fade35f95e0aa2a12d23fb3d0293fa9e4[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 03:21:01 2022 +0200
+
+    ADD custom fmt ~ v1
+
+[33mcommit efc7fe207ac09f4753be185c9d9124907d532cbd[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 02:59:25 2022 +0200
+
+    ADD basic fmt
+
+[33mcommit 4f89ac294ec8e8c7dacd437758efc0f338faf7f0[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 02:06:02 2022 +0200
+
+    DISABLE
+
+[33mcommit 859b4ba6804f2fdeb2bb7cc0452a009dadf7f647[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 01:53:14 2022 +0200
+
+    ADD pre-commit hooks
+
+[33mcommit ed447401a797e59e9fdaad60602e126934700166[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 01:29:28 2022 +0200
+
+    ADD formatting via vscode
+
+[33mcommit 249df431786699cc06a577a463e2bc7dd7c7c7d6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 08936cd 75449cf
+Author: Franco Testagrossa <70902797+testagrossa@users.noreply.github.com>
+Date:   Fri Jun 3 01:18:59 2022 +0200
+
+    Merge pull request #2 from testagrossa/validate-subsequence
+    
+    [exercise-2] validate subsequence
+
+[33mcommit 75449cf8926465d284bcbc7db37b27dc2421d025[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 01:17:26 2022 +0200
+
+    ADD details to notes using pulled fix
+
+[33mcommit 674dab76858469ff7413724e3168d70d41650068[m
+Merge: 6646ec1 08936cd
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 01:15:30 2022 +0200
+
+    Merge branch 'main' into validate-subsequence
+
+[33mcommit 08936cd6aed722b2176762219d0477ae42e2f8c6[m
+Merge: ecfd7ee 998b3fb
+Author: Franco Testagrossa <70902797+testagrossa@users.noreply.github.com>
+Date:   Fri Jun 3 01:13:32 2022 +0200
+
+    Merge pull request #3 from testagrossa/fix/two-number-sum/notes
+    
+    FIX [exercise-1] two-number-sum solution 3 notes
+
+[33mcommit 998b3fb212e5c8590e278bc031362a53fbe4f629[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 01:08:09 2022 +0200
+
+    FIX solution 3 notes
+
+[33mcommit 6646ec12df1add13939882e572b4f2747d4eca0f[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 00:59:36 2022 +0200
+
+    ADD validate-subsequence 2 solutions
+
+[33mcommit 610239d39da10279ac6b19ccf0cd2b178c115b64[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Fri Jun 3 00:37:37 2022 +0200
+
+    INIT validate-subsequence problem
+
+[33mcommit ecfd7eed68990193abc1570fb0ef14cf9d839dca[m
+Merge: f32112e 0714e64
+Author: Daguis <106122468+Daguis@users.noreply.github.com>
+Date:   Thu Jun 2 15:50:51 2022 +0200
+
+    Merge pull request #1 from testagrossa/two-number-sum
+    
+    [exercise-1] two number sum
+
+[33mcommit 0714e64f7098a9342b3ea570589d01d66cc47efc[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 02:11:47 2022 +0200
+
+    MINOR
+
+[33mcommit 2a86aa5537444307774cda3e774776e4ae936346[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 02:06:30 2022 +0200
+
+    ADD assertions
+
+[33mcommit 6e49bec10bbe648dd85febc74d1b828a7d8211f4[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 01:55:41 2022 +0200
+
+    ADD echo results on errors
+
+[33mcommit b2461830af45929dae1adffa89bdaea229de7f06[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 01:53:44 2022 +0200
+
+    ADD solutions dir
+
+[33mcommit 5629f6a8c442a4bd08215d370fa3fe1efa9b6206[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 01:47:31 2022 +0200
+
+    UPDATE .gitignore
+
+[33mcommit 5aec6f37602ffee12c3e959a5650dee0104e6a16[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 01:46:58 2022 +0200
+
+    DELETE bins
+
+[33mcommit 966ec16ec289395ead56146c371b5aac54d8f4b1[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 01:46:33 2022 +0200
+
+    ADD scripts
+
+[33mcommit fed0add67705b7cb97445f9cff8993ee52c7becb[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 00:43:39 2022 +0200
+
+    ADD script to clean bin directories
+
+[33mcommit e5d139d93e84f166186bfbe970e22bafb5c9c972[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 00:33:16 2022 +0200
+
+    REMOVE basics
+
+[33mcommit bbda210fd40275402922393c9bf766e1504ec285[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 00:17:17 2022 +0200
+
+    UPDATE readme
+
+[33mcommit dbf1797b9b596f78a1530d64ea68b2ca5d295321[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Wed Jun 1 00:13:08 2022 +0200
+
+    FIX: add mian
+
+[33mcommit e10bd13f45d70837d2fa759685d1e3aa841ee211[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Tue May 31 22:46:42 2022 +0200
+
+    ADD notes
+
+[33mcommit 0da93c5e63bedf1fcd586b3dca7a0f8a660c1dde[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Tue May 31 21:42:41 2022 +0200
+
+    FORMAT
+
+[33mcommit ad7acfc0345e8aea89f77fcb3b1d1ef27ae80164[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Tue May 31 21:41:11 2022 +0200
+
+    ADD two-number-sum 3 solutions
+
+[33mcommit f32112e7522b70b01f3e81f0c6e33c89b0049d7b[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Tue May 31 19:09:39 2022 +0200
+
+    ADD readme
+
+[33mcommit 1c388b699e61eb889150b9e1c436a9576bfa34e3[m
+Author: Franco Testagrossa <franco.testagrossa@gmail.com>
+Date:   Tue May 31 19:00:20 2022 +0200
+
+    INITIAL commit
