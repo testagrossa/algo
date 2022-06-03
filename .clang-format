@@ -26,3 +26,5 @@ SortIncludes: CaseSensitive
 SeparateDefinitionBlocks: Always
 KeepEmptyLinesAtTheStartOfBlocks: true
 IndentWidth: 4
+SpaceBeforeCpp11BracedList: true
+Cpp11BracedListStyle: false

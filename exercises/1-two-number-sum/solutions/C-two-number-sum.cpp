@@ -16,7 +16,7 @@ namespace SolutionC
             int currentSum = array[left] + array[right];
             if (currentSum == targetSum)
             {
-                return {array[left], array[right]};
+                return { array[left], array[right] };
             }
             else if (currentSum < targetSum)
             {

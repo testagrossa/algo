@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> inputArray = {3, 5, -4, 8, 11, 1, -1, 6};
+    vector<int> inputArray = { 3, 5, -4, 8, 11, 1, -1, 6 };
     int targetSum = 10;
 
     vector<int> outputA = SolutionA::twoNumberSum(inputArray, targetSum);

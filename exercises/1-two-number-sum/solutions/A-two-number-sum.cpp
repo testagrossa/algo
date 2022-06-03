@@ -15,7 +15,7 @@ namespace SolutionA
                 int secondNum = array[j];
                 if (firstNum + secondNum == targetSum)
                 {
-                    return vector<int>{firstNum, secondNum};
+                    return vector<int> { firstNum, secondNum };
                 }
             }
         }
