@@ -72,7 +72,7 @@ on ./githooks folder run: `pre-commit install`
 this will prevent to commit unformatted code
 
 3. execute format script:
-on ./script folder run: `./format.sh`
+from root folder run: `./script/format.sh`
 this will format all ur *.cpp files
 
 # bazel
