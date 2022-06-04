@@ -75,13 +75,12 @@ g++ -std=c++11 -fdiagnostics-color=always -g ./exercises/1-two-number-sum/main.c
 
 ## operation scripts
 from root/scripts folder you can
-- build.sh $excercise
-    script to build an excercise
-    this will create a /bin directory inside the exercise folder
-- run.sh $excercise
-    script to run an excercise
-    this will execute the ./bin/main.cpp file generated from build process
-- clean.sh
-    script to clean all exercises
-    this will remove all /bin directories in exercises,
-    only keeping .gitkeep files
+- `build.sh` $excercise
+    + script to build an excercise
+    + this will create a /bin directory inside the exercise folder
+- `run.sh` $excercise
+    + script to run an excercise
+    + this will execute the ./bin/main.cpp file generated from build process
+- `clean.sh`
+    + script to clean all exercises
+    + this will remove all /bin directories in exercises, only keeping .gitkeep files
