@@ -3,9 +3,9 @@
 #include <iostream>
 #include <vector>
 
-#include "../../utils/utils.cpp"
-#include "./solutions/A-sorted-squared-array.cpp"
-#include "./solutions/B-sorted-squared-array.cpp"
+#include "lib/utils.h"
+#include "solutions/A-sorted-squared-array.h"
+#include "solutions/B-sorted-squared-array.h"
 
 using namespace std;
 

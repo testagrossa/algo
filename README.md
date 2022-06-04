@@ -60,12 +60,12 @@ from root/scripts folder you can
 
 ## using clang-format
 1. install tools:
-- pre-commit
+- pre-commit: https://pre-commit.com/
     MacOSX: `brew install pre-commit`
 
 - clang-format
     MacOSX: `brew install clang-format`
-    Linux: `sudo apt install clang-format`
+    Ubuntu: `sudo apt install clang-format`
 
 2. install pre-commit hooks in the repo:
 on ./githooks folder run: `pre-commit install`
@@ -74,3 +74,12 @@ this will prevent to commit unformatted code
 3. execute format script:
 on ./script folder run: `./format.sh`
 this will format all ur *.cpp files
+
+# bazel
+1. install Bazel build system: https://bazel.build/install
+    MacOSX: `brew install bazel`
+2. commands from root directory:
+    bazel build //lib:utils
+    bazel run //exercises/1-two-number-sum:main
+    bazel run //exercises/2-validate-subsequence:main
+    bazel run //exercises/3-sorted-squared-array:main

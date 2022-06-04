@@ -3,8 +3,8 @@
 #include <iostream>
 #include <vector>
 
-#include "./solutions/A-validate-subsequence.cpp"
-#include "./solutions/B-validate-subsequence.cpp"
+#include "solutions/A-validate-subsequence.h"
+#include "solutions/B-validate-subsequence.h"
 
 using namespace std;
 

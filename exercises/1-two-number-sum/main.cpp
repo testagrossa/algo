@@ -3,10 +3,10 @@
 #include <iostream>
 #include <vector>
 
-#include "../../utils/utils.cpp"
-#include "./solutions/A-two-number-sum.cpp"
-#include "./solutions/B-two-number-sum.cpp"
-#include "./solutions/C-two-number-sum.cpp"
+#include "lib/utils.h"
+#include "solutions/A-two-number-sum.h"
+#include "solutions/B-two-number-sum.h"
+#include "solutions/C-two-number-sum.h"
 
 using namespace std;
 
