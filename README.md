@@ -25,7 +25,7 @@ this will prevent to commit unformatted code
 
 3. execute format script:
 from root folder run: `./script/format.sh`
-this will format all ur *.cpp files
+this will format all ur *.cpp and *.h files
 
 # bazel
 1. install Bazel build system: https://bazel.build/install
