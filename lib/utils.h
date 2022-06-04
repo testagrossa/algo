@@ -3,15 +3,18 @@
 
 using namespace std;
 
-template <typename T>
-string vectorToString(vector<T> vector)
+namespace Utils
 {
-    stringstream result;
-    for (size_t i = 0; i < vector.size(); ++i)
+    template <typename T>
+    string vectorToString(vector<T> vector)
     {
-        if (i != 0)
-            result << ",";
-        result << vector[i];
+        stringstream result;
+        for (size_t i = 0; i < vector.size(); ++i)
+        {
+            if (i != 0)
+                result << ",";
+            result << vector[i];
+        }
+        return result.str();
     }
-    return result.str();
 }
