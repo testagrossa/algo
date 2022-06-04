@@ -31,10 +31,12 @@ this will format all ur *.cpp files
 1. install Bazel build system: https://bazel.build/install
     MacOSX: `brew install bazel`
 2. commands from root directory:
+```
     bazel build //lib:utils
     bazel run //exercises/1-two-number-sum:main
     bazel run //exercises/2-validate-subsequence:main
     bazel run //exercises/3-sorted-squared-array:main
+```
 
 # OLD
 
