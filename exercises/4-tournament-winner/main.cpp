@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 
-#include "../../utils/utils.cpp"
 #include "./solutions/A-tournament-winner.cpp"
 
 using namespace std;
