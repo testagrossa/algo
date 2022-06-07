@@ -62,6 +62,7 @@ from root/scripts folder you can
 1. install tools:
 - pre-commit
     MacOSX: `brew install pre-commit`
+    Linux: `pip install pre-commit`
 
 - clang-format
     MacOSX: `brew install clang-format`
