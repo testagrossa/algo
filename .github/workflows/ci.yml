@@ -31,6 +31,6 @@ jobs:
         run: |
           "${GITHUB_WORKSPACE}/bin/bazel" build //...
 
-      # - name: Run Test
-      #   run: |
-      #     "${GITHUB_WORKSPACE}/bin/bazel" test //...
+      - name: Run Test
+        run: |
+          "${GITHUB_WORKSPACE}/bin/bazel" test //...
