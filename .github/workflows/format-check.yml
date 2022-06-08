@@ -1,16 +1,9 @@
-name: clang-format Check
+name: Format Check
 on: [push, pull_request]
 jobs:
   formatting-check:
     name: Formatting Check
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        path:
-          - check: 'src'
-            exclude: '(hello|world)' # Exclude file paths containing "hello" or "world"
-          - check: 'examples'
-            exclude: ''              # Nothing to exclude
     steps:
     - uses: actions/checkout@v2
     - name: Run clang-format style check for C/C++/Protobuf programs.
