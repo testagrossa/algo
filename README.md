@@ -37,7 +37,7 @@ this will format all ur *.cpp and *.h files
     bazel run //exercises/1-two-number-sum:main
     bazel run //exercises/2-validate-subsequence:main
     bazel run //exercises/3-sorted-squared-array:main
-    bazel test --test_output=all //tests:tests
+    bazel test --test_output=errors //tests:tests
 ```
 
 # OLD
