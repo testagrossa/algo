@@ -14,9 +14,6 @@ jobs:
           mv bazelisk-linux-amd64 "${GITHUB_WORKSPACE}/bin/bazel"
           chmod +x "${GITHUB_WORKSPACE}/bin/bazel"
 
-      # - name: Setup Bazelisk
-      #   uses: bazelbuild/setup-bazelisk@v1
-
       - name: Run Build
         run: |
           "${GITHUB_WORKSPACE}/bin/bazel" build //...
