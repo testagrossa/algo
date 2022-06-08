@@ -3,10 +3,10 @@
 #include <iostream>
 #include <vector>
 
-#include "../../utils/utils.cpp"
-#include "./solutions/A-two-number-sum.cpp"
-#include "./solutions/B-two-number-sum.cpp"
-#include "./solutions/C-two-number-sum.cpp"
+#include "lib/utils.h"
+#include "solutions/A-two-number-sum.h"
+#include "solutions/B-two-number-sum.h"
+#include "solutions/C-two-number-sum.h"
 
 using namespace std;
 
@@ -16,13 +16,13 @@ int main()
     int targetSum = 10;
 
     vector<int> outputA = SolutionA::twoNumberSum(inputArray, targetSum);
-    std::cout << "outputA: " + vectorToString(outputA) << std::endl;
+    std::cout << "outputA: " + Utils::vectorToString(outputA) << std::endl;
 
     vector<int> outputB = SolutionB::twoNumberSum(inputArray, targetSum);
-    std::cout << "outputB: " + vectorToString(outputB) << std::endl;
+    std::cout << "outputB: " + Utils::vectorToString(outputB) << std::endl;
 
     vector<int> outputC = SolutionC::twoNumberSum(inputArray, targetSum);
-    std::cout << "outputC: " + vectorToString(outputC) << std::endl;
+    std::cout << "outputC: " + Utils::vectorToString(outputC) << std::endl;
 
     // Assertions
     assert(outputA == outputB);
