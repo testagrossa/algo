@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "./solutions/A-tournament-winner.h"
+#include "solutions/A-tournament-winner.h"
 
 using namespace std;
 
