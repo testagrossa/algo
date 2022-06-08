@@ -14,10 +14,11 @@ Each solution will reside in its own file with propper summary + tests
 1. install tools:
 - pre-commit: https://pre-commit.com/
     MacOSX: `brew install pre-commit`
+    Linux: `pip install pre-commit`
 
 - clang-format
     MacOSX: `brew install clang-format`
-    Ubuntu: `sudo apt install clang-format`
+    Linux: `sudo apt install clang-format`
 
 2. install pre-commit hooks in the repo:
 on ./githooks folder run: `pre-commit install`
