@@ -23,4 +23,4 @@ jobs:
 
       - name: Run Test
         run: |
-          "${GITHUB_WORKSPACE}/bin/bazel --test_output=all" test //... &> log.txt
+          "${GITHUB_WORKSPACE}/bin/bazel --test_output=errors" test //...
