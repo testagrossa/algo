@@ -3,8 +3,8 @@
 #include <iostream>
 #include <vector>
 
-#include "../../utils/utils.cpp"
-#include "./solutions/A-non-constructible-change.cpp"
+#include "lib/utils.h"
+#include "solutions/A-non-constructible-change.h"
 
 using namespace std;
 
