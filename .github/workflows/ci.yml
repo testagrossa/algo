@@ -11,7 +11,7 @@ jobs:
         id: bazel-cache
         uses: actions/cache@v2
         env:
-          version: 4.2.1
+          version: 5.1.1
         with:
           path: | 
             ~/.cache/bazel
