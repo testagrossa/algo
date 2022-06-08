@@ -11,3 +11,5 @@ jobs:
       with:
         clang-format-version: '14'
         check-path: '.'
+    - name: Success
+      run: echo "SUCCEED"
