@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "new_git_repository")
+
 new_git_repository(
   name = "googletest",
   build_file = "gmock.BUILD",
