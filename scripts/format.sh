@@ -11,7 +11,7 @@ function append_newline {
 }
 
 # Find all source files using Git to automatically respect .gitignore
-FILES=$(git ls-files "*.h" "*.cpp" "*.c")
+FILES=$(git ls-files "*.h" "*.cpp" "*.c" "*.cc")
 
 # Run clang-format
 clang-format -i ${FILES}

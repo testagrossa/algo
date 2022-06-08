@@ -1,0 +1,18 @@
+name: Format Check
+on: [push]
+jobs:
+  formatting-check:
+    name: Style Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Run clang-format style check
+      uses: jidicula/clang-format-action@v4.6.2
+      with:
+        clang-format-version: '14'
+        check-path: '.'
+    
+    - name: Success
+      run: echo "SUCCEED"
