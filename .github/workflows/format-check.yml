@@ -12,4 +12,4 @@ jobs:
         clang-format-version: '14'
         check-path: ${{ matrix.path['check'] }}
         exclude-regex: ${{ matrix.path['exclude'] }}
-        fallback-style: 'Google' # optional
+        style: 'file' # optional
