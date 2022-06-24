@@ -45,7 +45,7 @@ this will format all ur *.cpp and *.h files
     bazel run //exercises/7-class-photos:main
 
     bazel test --test_output=errors //tests:tests
-
+```
 
 # OLD
 
