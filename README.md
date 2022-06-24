@@ -42,10 +42,9 @@ this will format all ur *.cpp and *.h files
     bazel run //exercises/4-tournament-winner:main
     bazel run //exercises/5-non-constructible-change:main
     bazel run //exercises/6-minimum-waiting-time:main
-
+    bazel run //exercises/7-class-photos:main
 
     bazel test --test_output=errors //tests:tests
-
 ```
 
 # OLD

@@ -1,0 +1,4 @@
+A. greedy, by sorting the vector space now he obtains mathematical properties over it
+which later exploits by traversing the structure with a pointer used to keep track of the current solution and mutating it on every iteration. 
+the "most efficient decistion" it can make only using the information it has on context (no historical check).
+In this case, we sort the inputs array to take the maximun height of each one, once we have it, we decide wicht array we will put in firt row. Then, we traverse the arrays to check if each one of the currents values of the first array are lower than current values of second one so the condition would be true.
