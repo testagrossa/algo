@@ -31,6 +31,8 @@ this will format all ur *.cpp and *.h files
 # bazel
 1. install Bazel build system: https://bazel.build/install
     MacOSX: `brew install bazel`
+    Linux: `sudo apt update && sudo apt install bazel`
+    
 2. commands from root directory:
 ```
     bazel build //lib:utils
@@ -39,7 +41,11 @@ this will format all ur *.cpp and *.h files
     bazel run //exercises/3-sorted-squared-array:main
     bazel run //exercises/4-tournament-winner:main
     bazel run //exercises/5-non-constructible-change:main
+    bazel run //exercises/6-minimum-waiting-time:main
+
+
     bazel test --test_output=errors //tests:tests
+
 ```
 
 # OLD
