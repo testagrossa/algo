@@ -39,6 +39,7 @@ this will format all ur *.cpp and *.h files
     bazel run //exercises/3-sorted-squared-array:main
     bazel run //exercises/4-tournament-winner:main
     bazel run //exercises/5-non-constructible-change:main
+    bazel run //exercises/7-class-photos:main
 ```
 
 # OLD
